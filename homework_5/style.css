@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.contaner{
+    max-width: 1000px;
+    display: grid;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.header-box {
+    padding: 5px;
+    background-color: #55bcf6;
+    column-gap: 5px;
+    height: 48px; 
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    margin-bottom: 32px;
+
+}
+
+.header-box :nth-child(3){
+    grid-column: 10;
+}
+
+.cart-button {
+    /* min-width: 150px; */
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.34em;
+    color: #000000;
+    background: #ffffff;
+    border: 1px double black;
+    /* border-radius: 10px; */
+    padding: 8px 12px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.search-button {
+    width: 150px;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.34em;
+    color: #000000;
+    background: #ffffff;
+    border: 1px double black;
+    /* border-radius: 10px; */
+    padding: 8px 12px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.search-string {
+    width: 300px;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.34em;
+    color: #000000;
+    background: #ffffff;
+    border: 1px double black;
+    /* border-radius: 10px; */
+    padding: 8px 12px;
+    text-decoration: none;
+
+}
+
+.goods-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+}
+
+.goods-item{
+    align-self: center;
+    justify-self: center;
+    column-gap: 10px;
+    row-gap: 1em;
+    display: grid;
+}
+
+.cart-item{
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    row-gap: 1em;
+    grid-template-columns: repeat(10, 1fr);
+    margin-bottom: 8px;
+}
+
+.cart-block{
+    margin-bottom: 32px;
+    
+}
+
+.cart-remove{
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.34em;
+    color: #000000;
+    background: #ffffff;
+    border: 1px double black;
+    /* border-radius: 10px; */
+    padding: 8px 12px;
+    text-decoration: none;
+    white-space: nowrap;
+}
